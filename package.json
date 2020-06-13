@@ -1,0 +1,39 @@
+{
+  "name": "@devoxa/ip-geolocation",
+  "description": "Resolve an IP address into a geolocation (continent, country, subdivision, city & lat/long)",
+  "version": "0.1.0",
+  "main": "dist/src/index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/devoxa/ip-geolocation"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --ignore-path='.gitignore' --list-different --write .",
+    "format:check": "prettier --ignore-path='.gitignore' --check .",
+    "lint": "eslint --ignore-path='.gitignore' '{src,tests}/**/*.ts'",
+    "build": "rm -rf dist/ && tsc",
+    "preversion": "yarn build"
+  },
+  "eslintConfig": {
+    "extends": "@devoxa"
+  },
+  "prettier": "@devoxa/prettier-config",
+  "dependencies": {
+    "maxmind": "^4.1.3"
+  },
+  "devDependencies": {
+    "@devoxa/eslint-config": "^1.0.0",
+    "@devoxa/prettier-config": "^1.0.0",
+    "@types/jest": "^25.2.2",
+    "@types/node": "^14.0.1",
+    "eslint": "^7.0.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

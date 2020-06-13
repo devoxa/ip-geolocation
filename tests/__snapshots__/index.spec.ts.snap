@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ip-geolocation can geolocate ip address from Germany 1`] = `
+Object {
+  "city": Object {
+    "name": "Frankfurt am Main (Innenstadt I)",
+  },
+  "continent": Object {
+    "code": "EU",
+    "name": "Europe",
+  },
+  "country": Object {
+    "code": "DE",
+    "isInEuropeanUnion": true,
+    "name": "Germany",
+  },
+  "location": Object {
+    "latitude": 50.0996,
+    "longitude": 8.63573,
+  },
+  "subdivision": Object {
+    "name": "Hesse",
+  },
+}
+`;
+
+exports[`ip-geolocation can geolocate ip address from South Africa 1`] = `
+Object {
+  "city": Object {
+    "name": "Johannesburg",
+  },
+  "continent": Object {
+    "code": "AF",
+    "name": "Africa",
+  },
+  "country": Object {
+    "code": "ZA",
+    "isInEuropeanUnion": false,
+    "name": "South Africa",
+  },
+  "location": Object {
+    "latitude": -26.2041,
+    "longitude": 28.0473,
+  },
+  "subdivision": Object {
+    "name": "Gauteng",
+  },
+}
+`;
+
+exports[`ip-geolocation can geolocate ip address from the UK 1`] = `
+Object {
+  "city": Object {
+    "name": "Stretford",
+  },
+  "continent": Object {
+    "code": "EU",
+    "name": "Europe",
+  },
+  "country": Object {
+    "code": "GB",
+    "isInEuropeanUnion": false,
+    "name": "United Kingdom",
+  },
+  "location": Object {
+    "latitude": 53.4616,
+    "longitude": -2.32454,
+  },
+  "subdivision": Object {
+    "name": "England",
+  },
+}
+`;
+
+exports[`ip-geolocation can geolocate ip address from the USA 1`] = `
+Object {
+  "city": Object {
+    "name": "Secaucus",
+  },
+  "continent": Object {
+    "code": "NA",
+    "name": "North America",
+  },
+  "country": Object {
+    "code": "US",
+    "isInEuropeanUnion": false,
+    "name": "United States",
+  },
+  "location": Object {
+    "latitude": 40.7861,
+    "longitude": -74.0743,
+  },
+  "subdivision": Object {
+    "name": "New Jersey",
+  },
+}
+`;

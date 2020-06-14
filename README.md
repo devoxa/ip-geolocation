@@ -100,8 +100,8 @@ MIT
 
 :warning: The module will also automatically download and use a ~85MB IP geolocation database from
 [db-ip.com](https://db-ip.com/db/download/ip-to-city-lite). This database is licensed under a
-**Creative Commons Attribution 4.0 International License**. You are free to use this database
-in your application, provided you give attribution to DB-IP.com for the data.
+**Creative Commons Attribution 4.0 International License**. You are free to use this database in
+your application, provided you give attribution to DB-IP.com for the data.
 
 In the case of a web application, you must include a link back to DB-IP.com on pages that display or
 use results from the database:

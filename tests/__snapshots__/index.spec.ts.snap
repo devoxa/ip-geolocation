@@ -95,3 +95,5 @@ Object {
   },
 }
 `;
+
+exports[`ip-geolocation errors if the database does not exist 1`] = `[Error: Database file at foo.mmdb does not exist]`;

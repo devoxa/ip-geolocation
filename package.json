@@ -13,7 +13,8 @@
     "format:check": "prettier --ignore-path='.gitignore' --check .",
     "lint": "eslint --ignore-path='.gitignore' '{src,tests}/**/*.ts'",
     "build": "rm -rf dist/ && tsc",
-    "preversion": "yarn build"
+    "preversion": "yarn build",
+    "postinstall": "node scripts/postinstall.js"
   },
   "eslintConfig": {
     "extends": "@devoxa"

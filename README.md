@@ -44,7 +44,7 @@
 
 ## Installation
 
-:warning: **Before installing this make sure you understand the [License](#license)!**
+:warning: **Before installing this make sure you understand the [license](#license)!**
 
 ```bash
 yarn add @devoxa/ip-geolocation

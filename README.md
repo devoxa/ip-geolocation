@@ -36,6 +36,7 @@
 <p align="center">
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a> •
   <a href="#contributors">Contributors</a> •
   <a href="#license">License :warning:</a>
 </p>
@@ -71,6 +72,16 @@ const result = await geolocateIp('69.10.63.243')
 //   city: { name: 'Secaucus' },
 //   location: { latitude: 40.7861, longitude: -74.0743 },
 // }
+```
+
+## Contributing
+
+```sh
+# Download the database for testing
+yarn postinstall src/
+
+# Run the tests
+yarn test
 ```
 
 ## Contributors

@@ -15,8 +15,8 @@ Object {
     "name": "Germany",
   },
   "location": Object {
-    "latitude": 50.0996,
-    "longitude": 8.63573,
+    "latitude": 50,
+    "longitude": 9,
   },
   "subdivision": Object {
     "name": "Hesse",
@@ -39,8 +39,8 @@ Object {
     "name": "South Africa",
   },
   "location": Object {
-    "latitude": -26.2041,
-    "longitude": 28.0473,
+    "latitude": -26,
+    "longitude": 28,
   },
   "subdivision": Object {
     "name": "Gauteng",
@@ -63,8 +63,8 @@ Object {
     "name": "United Kingdom",
   },
   "location": Object {
-    "latitude": 53.4616,
-    "longitude": -2.32454,
+    "latitude": 53,
+    "longitude": -2,
   },
   "subdivision": Object {
     "name": "England",
@@ -87,8 +87,8 @@ Object {
     "name": "United States",
   },
   "location": Object {
-    "latitude": 40.7861,
-    "longitude": -74.0743,
+    "latitude": 41,
+    "longitude": -74,
   },
   "subdivision": Object {
     "name": "New Jersey",

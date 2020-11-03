@@ -51,7 +51,7 @@ Object {
 exports[`ip-geolocation can geolocate ip address from the UK 1`] = `
 Object {
   "city": Object {
-    "name": "Stretford",
+    "name": "Scholes",
   },
   "continent": Object {
     "code": "EU",
@@ -63,8 +63,8 @@ Object {
     "name": "United Kingdom",
   },
   "location": Object {
-    "latitude": 53,
-    "longitude": -2,
+    "latitude": 54,
+    "longitude": -1,
   },
   "subdivision": Object {
     "name": "England",

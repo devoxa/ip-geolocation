@@ -3,7 +3,7 @@
 exports[`ip-geolocation can geolocate ip address from Germany 1`] = `
 Object {
   "city": Object {
-    "name": "Frankfurt am Main (Innenstadt I)",
+    "name": Any<String>,
   },
   "continent": Object {
     "code": "EU",
@@ -15,8 +15,8 @@ Object {
     "name": "Germany",
   },
   "location": Object {
-    "latitude": 50,
-    "longitude": 9,
+    "latitude": Any<Number>,
+    "longitude": Any<Number>,
   },
   "subdivision": Object {
     "name": "Hesse",
@@ -27,7 +27,7 @@ Object {
 exports[`ip-geolocation can geolocate ip address from South Africa 1`] = `
 Object {
   "city": Object {
-    "name": "Johannesburg",
+    "name": Any<String>,
   },
   "continent": Object {
     "code": "AF",
@@ -39,8 +39,8 @@ Object {
     "name": "South Africa",
   },
   "location": Object {
-    "latitude": -26,
-    "longitude": 28,
+    "latitude": Any<Number>,
+    "longitude": Any<Number>,
   },
   "subdivision": Object {
     "name": "Gauteng",
@@ -51,7 +51,7 @@ Object {
 exports[`ip-geolocation can geolocate ip address from the UK 1`] = `
 Object {
   "city": Object {
-    "name": "Scholes",
+    "name": Any<String>,
   },
   "continent": Object {
     "code": "EU",
@@ -63,8 +63,8 @@ Object {
     "name": "United Kingdom",
   },
   "location": Object {
-    "latitude": 54,
-    "longitude": -1,
+    "latitude": Any<Number>,
+    "longitude": Any<Number>,
   },
   "subdivision": Object {
     "name": "England",
@@ -75,7 +75,7 @@ Object {
 exports[`ip-geolocation can geolocate ip address from the USA 1`] = `
 Object {
   "city": Object {
-    "name": "Secaucus",
+    "name": Any<String>,
   },
   "continent": Object {
     "code": "NA",
@@ -87,8 +87,8 @@ Object {
     "name": "United States",
   },
   "location": Object {
-    "latitude": 41,
-    "longitude": -74,
+    "latitude": Any<Number>,
+    "longitude": Any<Number>,
   },
   "subdivision": Object {
     "name": "New Jersey",

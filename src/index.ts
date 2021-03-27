@@ -10,7 +10,9 @@ export interface GeolocateIpResult {
   location: { latitude: number; longitude: number }
 }
 
-let reader: Reader<any>
+// We can not type this correctly because the TS interface expects a wrong generic
+let reader: Reader<any> // eslint-disable-line @typescript-eslint/no-explicit-any
+
 const DB_FILE_PATH = path.join(__dirname, 'dbip-city-lite.mmdb')
 
 export async function loadDatabase(dbFilePath: string = DB_FILE_PATH) {

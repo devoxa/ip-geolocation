@@ -1,5 +1,5 @@
-import mmdbReader, { Reader } from 'maxmind'
-import fs from 'fs'
+import Reader from 'mmdb-lib'
+import fs from 'fs/promises'
 import path from 'path'
 
 export interface GeolocateIpResult {
@@ -10,32 +10,13 @@ export interface GeolocateIpResult {
   location: { latitude: number; longitude: number }
 }
 
-// We can not type this correctly because the TS interface expects a wrong generic
-let reader: Reader<any> // eslint-disable-line @typescript-eslint/no-explicit-any
-
 const DB_FILE_PATH = path.join(__dirname, 'dbip-city-lite.mmdb')
 
-export async function loadDatabase(dbFilePath: string = DB_FILE_PATH) {
-  if (reader) {
-    return
-  }
-
-  const dbFileExists = await fileExists(dbFilePath)
-  if (!dbFileExists) {
-    throw new Error(`Database file at ${dbFilePath} does not exist`)
-  }
-
-  reader = await mmdbReader.open(dbFilePath)
-}
-
-function fileExists(path: string) {
-  return new Promise((resolve) => fs.access(path, fs.constants.F_OK, (err) => resolve(!err)))
-}
-
 export async function geolocateIp(ip: string): Promise<GeolocateIpResult | null> {
-  await loadDatabase()
+  const databaseBuffer = await fs.readFile(DB_FILE_PATH)
 
-  const result = reader.get(ip)
+  const reader = new Reader(databaseBuffer)
+  const result = reader.get(ip) as any // eslint-disable-line @typescript-eslint/no-explicit-any
 
   if (!result) {
     return null

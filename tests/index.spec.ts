@@ -1,4 +1,4 @@
-import { geolocateIp, loadDatabase } from '../src/index'
+import { geolocateIp } from '../src/index'
 
 const PROPERTY_MATCHER = {
   city: {
@@ -11,18 +11,6 @@ const PROPERTY_MATCHER = {
 }
 
 describe('ip-geolocation', () => {
-  it('errors if the database does not exist', async () => {
-    let error
-
-    try {
-      await loadDatabase('foo.mmdb')
-    } catch (err) {
-      error = err
-    }
-
-    expect(error).toMatchSnapshot()
-  })
-
   it('can geolocate ip address from the USA', async () => {
     expect(await geolocateIp('69.10.63.243')).toMatchSnapshot(PROPERTY_MATCHER)
   })

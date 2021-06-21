@@ -57,13 +57,10 @@ yarn add @devoxa/ip-geolocation
 ## Usage
 
 ```ts
-import { loadDatabase, geolocateIp } from '@devoxa/ip-geolocation'
-
-// Preload the geolocation database
-// Recommended, but not required. Will reduce the first call to `geolocateIp` by ~100ms
-await loadDatabase()
+import { geolocateIp } from '@devoxa/ip-geolocation'
 
 // Lookup an IP address
+// This will take about 50ms and use about 95MB of memory until garbage collected
 const result = await geolocateIp('69.10.63.243')
 // {
 //   continent: { code: 'NA', name: 'North America' },

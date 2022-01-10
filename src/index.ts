@@ -1,4 +1,4 @@
-import Reader from 'mmdb-lib'
+import { Reader } from 'mmdb-lib'
 import fs from 'fs/promises'
 import path from 'path'
 

@@ -1,96 +1,96 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ip-geolocation can geolocate ip address from Germany 1`] = `
-Object {
-  "city": Object {
+{
+  "city": {
     "name": Any<String>,
   },
-  "continent": Object {
+  "continent": {
     "code": "EU",
     "name": "Europe",
   },
-  "country": Object {
+  "country": {
     "code": "DE",
     "isInEuropeanUnion": true,
     "name": "Germany",
   },
-  "location": Object {
+  "location": {
     "latitude": Any<Number>,
     "longitude": Any<Number>,
   },
-  "subdivision": Object {
+  "subdivision": {
     "name": "Hesse",
   },
 }
 `;
 
 exports[`ip-geolocation can geolocate ip address from South Africa 1`] = `
-Object {
-  "city": Object {
+{
+  "city": {
     "name": Any<String>,
   },
-  "continent": Object {
+  "continent": {
     "code": "AF",
     "name": "Africa",
   },
-  "country": Object {
+  "country": {
     "code": "ZA",
     "isInEuropeanUnion": false,
     "name": "South Africa",
   },
-  "location": Object {
+  "location": {
     "latitude": Any<Number>,
     "longitude": Any<Number>,
   },
-  "subdivision": Object {
+  "subdivision": {
     "name": "Gauteng",
   },
 }
 `;
 
 exports[`ip-geolocation can geolocate ip address from the UK 1`] = `
-Object {
-  "city": Object {
+{
+  "city": {
     "name": Any<String>,
   },
-  "continent": Object {
+  "continent": {
     "code": "EU",
     "name": "Europe",
   },
-  "country": Object {
+  "country": {
     "code": "GB",
     "isInEuropeanUnion": false,
     "name": "United Kingdom",
   },
-  "location": Object {
+  "location": {
     "latitude": Any<Number>,
     "longitude": Any<Number>,
   },
-  "subdivision": Object {
+  "subdivision": {
     "name": "England",
   },
 }
 `;
 
 exports[`ip-geolocation can geolocate ip address from the USA 1`] = `
-Object {
-  "city": Object {
+{
+  "city": {
     "name": Any<String>,
   },
-  "continent": Object {
+  "continent": {
     "code": "NA",
     "name": "North America",
   },
-  "country": Object {
+  "country": {
     "code": "US",
     "isInEuropeanUnion": false,
     "name": "United States",
   },
-  "location": Object {
+  "location": {
     "latitude": Any<Number>,
     "longitude": Any<Number>,
   },
-  "subdivision": Object {
+  "subdivision": {
     "name": "New Jersey",
   },
 }

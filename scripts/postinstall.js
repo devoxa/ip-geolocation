@@ -39,6 +39,7 @@ async function downloadForDate(date) {
   }
 
   console.log(`Downloading DBIP City Lite database for ${version}...`)
+  fs.mkdirSync(DOWNLOAD_PATH, { recursive: true })
   const downloadUrl = buildDownloadUrl(version)
   await downloadToFile(downloadUrl, DOWNLOAD_PATH_MMDB)
 

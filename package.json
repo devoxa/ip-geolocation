@@ -27,7 +27,7 @@
     "@devoxa/eslint-config": "3.0.1",
     "@devoxa/prettier-config": "1.0.2",
     "@types/jest": "29.2.4",
-    "@types/node": "18.11.16",
+    "@types/node": "18.11.17",
     "eslint": "8.30.0",
     "jest": "29.3.1",
     "prettier": "2.8.1",

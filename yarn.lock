@@ -2880,7 +2880,7 @@ minimist@^1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-mmdb-lib@^2.0.0:
+mmdb-lib@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/mmdb-lib/-/mmdb-lib-2.0.1.tgz#0be531513a0027a9dce70b46aa0089baddfd2bdf"
   integrity sha512-wyc188Vdaxi24nCf4S8tbdgs+0VBhOUAcNZ81gnPpd8zT54IhvW+Mvif0OZ7Et5Sm5zWaH8iyuhEj8h5MXiWmA==

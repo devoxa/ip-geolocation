@@ -1,5 +1,5 @@
-import { Reader } from 'mmdb-lib'
 import fs from 'fs/promises'
+import { Reader } from 'mmdb-lib'
 import path from 'path'
 
 export interface GeolocateIpResult {

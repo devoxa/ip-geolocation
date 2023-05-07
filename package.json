@@ -24,7 +24,7 @@
     "mmdb-lib": "2.0.2"
   },
   "devDependencies": {
-    "@devoxa/eslint-config": "3.0.9",
+    "@devoxa/eslint-config": "3.0.10",
     "@devoxa/prettier-config": "2.0.1",
     "@types/jest": "29.5.1",
     "@types/node": "18.16.5",

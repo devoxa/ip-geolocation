@@ -1,7 +1,7 @@
 {
   "name": "@devoxa/ip-geolocation",
   "description": "Resolve an IP address into a geolocation (continent, country, subdivision, city & lat/long)",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "dist/src/index.js",
   "license": "MIT",
   "repository": {

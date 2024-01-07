@@ -24,7 +24,7 @@ describe('ip-geolocation', () => {
   })
 
   test('can geolocate ip address from South Africa', async () => {
-    expect(await geolocateIp('172.107.93.212')).toMatchSnapshot(PROPERTY_MATCHER)
+    expect(await geolocateIp('172.68.140.212')).toMatchSnapshot(PROPERTY_MATCHER)
   })
 
   test('fails gracefully for invalid or unresolvable ip addresses', async () => {

@@ -2,6 +2,14 @@ import fs from 'fs/promises'
 import { Reader } from 'mmdb-lib'
 import path from 'path'
 
+interface MmdbResult {
+  continent: { code: string; names: { en: string } }
+  country: { iso_code: string; names: { en: string }; is_in_european_union: boolean }
+  subdivisions: Array<{ names: { en: string } }>
+  city: { names: { en: string } }
+  location: { latitude: number; longitude: number }
+}
+
 export interface GeolocateIpResult {
   continent: { code: string; name: string }
   country: { code: string; name: string; isInEuropeanUnion: boolean }
@@ -16,7 +24,7 @@ export async function geolocateIp(ip: string): Promise<GeolocateIpResult | null>
   const databaseBuffer = await fs.readFile(DB_FILE_PATH)
 
   const reader = new Reader(databaseBuffer)
-  const result = reader.get(ip) as any // eslint-disable-line @typescript-eslint/no-explicit-any
+  const result = reader.get(ip) as MmdbResult | null
 
   if (!result) {
     return null

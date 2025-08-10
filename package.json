@@ -18,7 +18,7 @@
   },
   "prettier": "@devoxa/prettier-config",
   "dependencies": {
-    "mmdb-lib": "2.1.1"
+    "mmdb-lib": "2.2.1"
   },
   "devDependencies": {
     "@devoxa/eslint-config": "4.0.2",

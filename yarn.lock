@@ -3639,10 +3639,10 @@ minimist@^1.2.5:
   resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
 
-mmdb-lib@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/mmdb-lib/-/mmdb-lib-2.2.1.tgz#1de6b3f6f62933d5a21ff11abe7f08f7f644ac52"
-  integrity sha512-DXO4L9W+08T+A7h5+xdT32l7IMot8z7WOH+7C1Maol571PnktQ8un7Ni4CyPFp4H+vht/FDA5/tpjRvWMFQDMw==
+mmdb-lib@3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/mmdb-lib/-/mmdb-lib-3.0.4.tgz#63522cd092ace4dd6bb84be0436a898f23616dde"
+  integrity sha512-tWy4b2UQaJjRhW/VGpy7ypMMgS7JfPezMsmVW7/utlWm6vv1JgsxXkmjuv/SjN6tsG8YrKHfJ00zHhrOCQDhjg==
 
 ms@2.1.2:
   version "2.1.2"
